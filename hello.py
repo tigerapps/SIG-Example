@@ -2,8 +2,11 @@
 
 def main():
     print("Hello World!")
-    str = input("What is your name? ")
-    print("Hello {}!".format(str))
+    name = input("What is your name? ")
+    greet(name)
+
+def greet(name):
+    print("Hello {}!".format(name))
 
 if __name__ == "__main__":
     main()
